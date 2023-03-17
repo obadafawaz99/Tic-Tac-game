@@ -1,0 +1,45 @@
+.game {
+  height: 400px;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  font-weight:300;
+  color: white;
+}
+.title {
+  background-color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: yellow;
+  max-width: 288px;
+  padding: 15px;
+  margin: 3px;
+  font-size: 40px;
+}
+.title span{
+  color: white;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 4px ;
+  font-size: 70px;
+  float: left;
+  cursor: pointer;
+}
+.square:hover {
+background-color: rgb(129, 0, 0);
+}
+
+.poupap {
+  position: fixed;
+  background-color: #0000008a;
+  padding: 100px 20px;
+  width: 80%;
+  top: 15%;
+  left: 10%;
+  text-align: center;
+  font-size: 40px;
+  border: 1px solid #ccc;
+  color: rgb(192, 233, 10);
+}
